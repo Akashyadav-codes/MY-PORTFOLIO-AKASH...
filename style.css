@@ -368,8 +368,9 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  background: #f9f9f9;
+  background: #01b9b9;
   /* fallback bg in case image fails */
+  background-image: -moz-repeating-radial-gradient();
 }
 
 
