@@ -182,8 +182,8 @@ body {
 }
 
 .hero-right img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #fff;
