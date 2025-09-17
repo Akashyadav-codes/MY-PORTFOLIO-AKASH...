@@ -36,11 +36,11 @@
       </div>
     </div>
     <div class="hero-right">
-      
+
       <img src="boss pic.jpg" alt="Akash Yadav" />
     </div>
   </section>
-
+<hr>
   <!-- About Section -->
   <section id="about" class="about-section">
     <div class="container">
@@ -62,8 +62,8 @@
           <div class="about-details">
             <p><strong>Name:</strong> Akash Yadav</p>
             <p><strong>Date of birth:</strong> 27 June, 2005</p>
-            <p><strong>Address:</strong> Vijay Nagar, Ghaziabad</p>
-            <p><strong>Pin code:</strong> 201009</p>
+            <p><strong>Address:</strong> Kaptanganj,Azamgarh</p>
+            <p><strong>Pin code:</strong> 276141</p>
             <p><strong>Email:</strong> ay674161@gmail.com</p>
             <p><strong>Phone:</strong> +91-8009997485</p>
           </div>
@@ -77,7 +77,7 @@
       </div>
     </div>
   </section>
-
+<hr>
   <!-- Skills Section -->
   <section id="skills" class="skills-section">
     <h2>My Skills</h2>
@@ -85,29 +85,29 @@
       <div class="skills-track">
         <!-- Skills -->
         <div class="skill-card">
-          <img src="./assets/html.png" class="skill-icon" alt="HTML" />
+          <img src="html.avif" class="skill-icon" alt="HTML" />
           <h4>HTML</h4>
         </div>
         <div class="skill-card">
-          <img src="./assets/css.png" class="skill-icon" alt="CSS" />
+          <img src="csslogo.webp" class="skill-icon" alt="CSS" />
           <h4>CSS</h4>
         </div>
         <div class="skill-card">
-          <img src="./assets/python.png" class="skill-icon" alt="Python" />
+          <img src="pythonlogo.jpeg" class="skill-icon" alt="Python" />
           <h4>Python</h4>
         </div>
         <div class="skill-card">
-          <img src="./assets/java.png" class="skill-icon" alt="Java" />
+          <img src="javalogo.png" class="skill-icon" alt="Java" />
           <h4>Java</h4>
         </div>
         <div class="skill-card">
-          <img src="./assets/github.png" class="skill-icon" alt="GitHub" />
+          <img src="githublogo.jpeg" class="skill-icon" alt="GitHub" />
           <h4>GitHub</h4>
         </div>
       </div>
     </div>
   </section>
-
+<hr>
   <!-- Projects Section -->
   <section id="projects" class="projects-section">
     <h2 class="section-title">My Projects</h2>
@@ -121,7 +121,8 @@
       </div>
 
       <div class="project-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIiAf4_kIGA1G2VSa14nkLR2NaUKQXu9_hMw&s" alt="REPORT CARD GENERATOR" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIiAf4_kIGA1G2VSa14nkLR2NaUKQXu9_hMw&s"
+          alt="REPORT CARD GENERATOR" />
         <div class="project-info">
           <h3>Report Card Generator</h3>
           <p>C++</p>
@@ -139,7 +140,7 @@
       </div>
     </div>
   </section>
-
+<hr>
   <!-- Contact Section -->
   <section id="contact" class="contact-section">
     <div class="container">
@@ -155,17 +156,16 @@
           <textarea rows="5" id="message" name="message" placeholder="Your Message" required></textarea>
         </div>
         <div class="button-group">
-          <button type="button" class="btn primary" onclick="sendWhatsApp()">Send WhatsApp</button>
           <button type="submit" class="btn outline">Send Email</button>
         </div>
       </form>
     </div>
   </section>
-
+<hr>
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-container">
-      <h3>Akash.Dev</h3>
+  <h3>Akash.Dev</h3>
       <p>Crafting frontend experiences with code & creativity ✨</p>
       <div class="social-icons">
         <a href="https://github.com/akashyadav-codes" target="_blank" title="GitHub Profile">
@@ -182,27 +182,19 @@
     </div>
   </footer>
 
-    
-    
+
+
   <!-- Scripts -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <script>
-ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
-        ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
-        ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
-        ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
-        ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+    ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
+    ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
+    ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
+    ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
+    ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
 
-    function sendWhatsApp() {
-      const name = document.getElementById("name").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const message = document.getElementById("message").value.trim();
-
-      const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-      const phone = "8009997485";
-      const link = `https://wa.me/${phone}?text=${text}`;
-      window.open(link, "_blank");
-    }
+    // WhatsApp message sending code removed
   </script>
 </body>
+
 </html>

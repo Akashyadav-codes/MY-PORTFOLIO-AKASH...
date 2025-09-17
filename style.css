@@ -18,10 +18,11 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #fefefe;
+  background: #000000;
+  
   color: #040404;
   padding-top: 80px;
-  background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0");
+  /* background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0"); */
   background-size: cover;
   background-attachment: fixed;
 }
@@ -54,7 +55,7 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #1b0163;
+  color: #0c0c0c;
   font-weight: 500;
   padding: 8px 18px;
   border-radius: 5px;
@@ -62,7 +63,7 @@ body {
 }
 
 .nav-links li a:hover {
-  background: #1b0163;
+  background: #063594;
   color: #fff;
   border-radius: 30px;
 }
@@ -191,8 +192,11 @@ body {
 }
 @media screen and (max-width: 768px) {
   .hero-right img {
-    width: auto;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
 }
 
@@ -200,7 +204,7 @@ body {
 /* ========== ABOUT SECTION ========== */
 .about-section {
   padding: 60px 20px;
-  background: #f9f9f9;
+  background: #decfcf;
 }
 
 .container {
@@ -259,7 +263,7 @@ body {
 .skills-section {
   padding: 80px 20px;
   text-align: center;
-  background: #f9f9f9;
+  background: #decfcf;
 }
 
 .skills-track {
@@ -291,7 +295,7 @@ body {
 /* ========== PROJECTS SECTION ========== */
 .projects-section {
   padding: 80px 20px;
-  background-color: #f9f9f9;
+  background-color: #decfcf;
   text-align: center;
 }
 
@@ -373,7 +377,7 @@ body {
 /* ========== CONTACT SECTION ========== */
 .contact-section {
   padding: 60px 20px;
-  background: #fff;
+  background: #decfcf;
   text-align: center;
 }
 
@@ -404,7 +408,7 @@ body {
 
 /* ========== FOOTER ========== */
 .footer {
-  background: #1b0163;
+  background: #070707;
   color: #fff;
   text-align: center;
   padding: 40px 20px;
@@ -432,7 +436,7 @@ body {
 }
 
 .social-icons a:hover {
-  color: #ffd700;
+  color: #0dedd7;
 }
 
 .footer .copyright {
